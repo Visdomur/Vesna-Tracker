@@ -2,7 +2,7 @@ Vesna Preparation Tracker
 
 Original by 7utauta - Modified by Visdomur
 
-This is a web-based tracking tool designed to help players prepare for the unreleased Genshin Impact character, Vesna. It features a material checklist, a savings calculator for Primogems/Fates, and an automated Summary Card generator that creates shareable images for your personal use.
+This is a web-based tracking tool designed to help players prepare for the Genshin Impact character, Vesna. It features a material checklist, a savings calculator for Primogems/Fates, and an automated Summary Card generator that creates shareable images for your personal use.
 
 [ HOW TO USE ]
 
