@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vesna | Preparation</title>
+<meta property="og:title" content="Vesna | Preparation Tracker" />
+<meta property="og:description" content="Druzhna · Commander - In - Chief Tracker" />
+<meta property="og:image" content="https://visdomur.github.io/Vesna-Tracker/vod%20preview.png" />
+<meta property="og:url" content="https://visdomur.github.io/Vesna-Tracker/" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="favicon.png?v=vesna">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div>
+            <h1>Vesna
+
+            </h1>
+            <span class="role-subtitle">Druzhna · Commander–In–Chief Tracker</span>
+            <span class="subtitle">Preparation Tracker・Character / Talents / Signature Weapon</span>
+        </div>
+        <div class="button-group">
+            <button class="save-btn" id="saveBtn">Generate Summary Card</button>
+            <button class="reset-btn" id="resetBtn">Reset Progress</button>
+        </div>
+    </header>
+    <div class="savings-section">
+        <div class="savings-card">
+            <img src="https://paimon.moe/images/primogem.png" class="savings-icon primo-icon" alt="Primogem">
+            <div class="input-group">
+                <label>Primogems</label>
+                <input type="number" id="primoInput" placeholder="0" oninput="saveSavings()">
+            </div>
+        </div>
+        <div class="savings-card">
+            <img src="https://paimon.moe/images/intertwined_fate.png" class="savings-icon" alt="Fate">
+            <div class="input-group">
+                <label>Intertwined Fates</label>
+                <input type="number" id="fateInput" placeholder="0" oninput="saveSavings()">
+            </div>
+        </div>
+    </div>
+
+    <div id="app"></div>
+
+    <div id="export-container">
+        <div class="card-savings-overlay">
+            <div class="card-saving-item">
+                <img src="https://paimon.moe/images/primogem.png" class="primo-card-icon">
+                <span id="export-primo">0</span>
+            </div>
+            <div class="card-saving-item">
+                <img src="https://paimon.moe/images/intertwined_fate.png">
+                <span id="export-fate">0</span>
+            </div>
+        </div>
+        <div id="export-grid" class="export-grid-overlay"></div>
+    </div>
+
+    <footer class="legal-footer">
+        <p>The Vesna Preparation Tracker is a fan-made tool created for personal use only.</p>
+            This project is not affiliated with, endorsed, sponsored, or specifically approved by HoYoverse (MiHoYo).<br>
+            All game content, characters, images, and trademarks are the property of HoYoverse. All rights reserved.
+        </p>
+        <p>Made by 7utauta - Edited by Visdomur</p>
+    </footer>
+</div>
+
+<div id="save-status">Auto-saved</div>
+
+</body>
+</html>
